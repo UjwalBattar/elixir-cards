@@ -59,9 +59,9 @@ defmodule Cards do
     # deck = Cards.shuffle(deck)
     # hand = Cards.deal(deck, hand_size)
 
-    # Return value is passed on the the next function as the first argument
     # When using the  |> (pipe and greater than) operator
-    # IMPORNTANT => first argument must be consistent!
+    # Return value is passed on the the next function as the first argument
+    # IMPORTANT => first argument must be consistent!
     Cards.create_deck()
     |> Cards.shuffle()
     |> Cards.deal(hand_size)
